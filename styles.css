@@ -1,0 +1,89 @@
+/* Global  */
+body {
+    background:radial-gradient(circle at 50% 2%, rgba(140, 82, 255, 1) 0%, rgba(255, 145, 77, 1) 25%, rgba(0, 0, 0, 1) 50%);
+}
+
+
+/* Navigation  */
+.btn {
+    background: linear-gradient(90deg, rgba(140, 82, 255, 1) 0%, rgba(255, 145, 77, 1) 100%);
+  }
+  
+  /* Hero Section  */
+  .quiz-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quiz-con div {
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    color: white;
+    padding: 2rem;
+  }
+
+  
+/* Quiz Card section */
+.quiz-btn {
+    background:linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 0, 255, 1) 100%);
+}
+
+.text-upgrade {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Quiz Page  */
+
+.quiz-row {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: .5rem;
+}
+
+/* Questions */
+#questions {
+display: block;
+width: 50%;
+margin: auto;
+}
+
+.q-card {
+padding: 5%;
+}
+
+.q-btn:hover {
+    background: linear-gradient(90deg, rgba(255, 145, 77, 1)  0%, rgba(140, 82, 255, 1) 100%);
+}
+
+#timer {
+  color: white;
+  border: 2px white solid;
+  border-radius: 50%;
+  text-align: center;
+  width: 2rem;
+  margin: auto;
+}
+
+/* Results Page */
+#results-container {
+  text-align: center;
+}
+.results {
+display: flex;
+justify-content: center;
+}
+
+.results-card {
+    width: 50%;
+}
